@@ -99,6 +99,39 @@ export const featuredSongs = [
     youtubeId: "yYz_3RTMLYo",
     category: "keerthanams",
     language: "malayalam"
+  },
+  {
+    id: 10,
+    title: "Ayyappa Devaya Namaha",
+    artist: "S.P. Balasubrahmanyam",
+    album: "SPB Devotional Hits",
+    duration: "5:30",
+    image: "/images/Ayyappa_Devaya_Namaha.jpg",
+    youtubeId: "ih23dTysgSc",
+    category: "bhajans",
+    language: "telugu"
+  },
+  {
+    id: 11,
+    title: "Sharanu Gosha",
+    artist: "Parupalli Ranganath",
+    album: "Ayyappa Devotional Songs",
+    duration: "45:00",
+    image: "/images/Sharanu_Gosha.jpg",
+    youtubeId: "g33W3wto2aY",
+    category: "bhajans",
+    language: "telugu"
+  },
+  {
+    id: 12,
+    title: "Veeramani Collections",
+    artist: "Veeramani Raju",
+    album: "Ayyappa Devotional Collection",
+    duration: "60:00",
+    image: "/images/Veeramani.png",
+    youtubeId: "Ycybm2clFcw",
+    category: "bhajans",
+    language: "tamil"
   }
 ];
 
@@ -116,8 +149,8 @@ export const playlists = [
     title: "Veeramani Collections",
     description: "Classic Veeramani Raju & Kannan songs",
     image: "/images/Veeramani.png",
-    songCount: 4,
-    songs: [4, 5, 6, 7]
+    songCount: 1,
+    songs: [12]
   },
   {
     id: 3,
@@ -186,7 +219,7 @@ export const categories = [
 
 export const recentlyPlayed = [
   {
-    id: 2,
+    id: 10,
     title: "Ayyappa Devaya Namaha",
     artist: "S.P. Balasubrahmanyam",
     image: "/images/Ayyappa_Devaya_Namaha.jpg",
@@ -200,7 +233,7 @@ export const recentlyPlayed = [
     playedAt: "Yesterday"
   },
   {
-    id: 3,
+    id: 11,
     title: "Sharanu Gosha",
     artist: "Parupalli Ranganath",
     image: "/images/Sharanu_Gosha.jpg",
